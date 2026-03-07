@@ -9,14 +9,15 @@ export default async function Projects(){
         return <section className="px-36 mb-[200px] h-screen text-center">エラーが発生しました</section>;
     }
 
-    const displayProjects= projects ? [...projects, ...projects] : [];
+    // const displayProjects= projects ? [...projects, ...projects] : [];
+    const displayProjects= projects ? projects : [];
     
     return(
-        <section className="mb-[200px] w-full overflow-hidden h-screen flex flex-col justify-center">
+        <section className="mb-[200px] w-full overflow-hidden h-screen flex flex-col  items-center justify-center">
             <h2 className="text-center text-6xl my-15">Project List</h2>
 
-            <div className="relative w-full">
-                <div className="flex w-max animate-scroll gap-10 px-10">
+            <div className="relative w-max mx-auto">
+                <div className="flex gap-10">
                     {displayProjects.map((project, index) => (
                         <Link 
                             key={`${project.id}-${index}`}
