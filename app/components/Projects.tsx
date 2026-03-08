@@ -22,6 +22,8 @@ export default async function Projects(){
                         <Link 
                             key={`${project.id}-${index}`}
                             href={project.link || "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="relative w-[600px] h-[400px] flex-shrink-0 cursor-pointer group rounded-2xl overflow-hidden shadow-2xl"
                         >
                             <img 
