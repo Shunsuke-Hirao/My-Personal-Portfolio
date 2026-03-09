@@ -7,7 +7,7 @@ const MENU_ITEMS = [
 
 export default function SideMenu(){
     return(
-        <section className="flex h-screen items-center justify-center bg-[#333333] opacity-90 z-[60]">
+        <section className="flex h-screen w-screen items-center justify-center bg-[#333333] opacity-90 z-[60]">
           <ul className="m-0 list-none p-0">
             {MENU_ITEMS.map((item, index) => (
               <li

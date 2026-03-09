@@ -8,7 +8,7 @@ import SideMenu from "./components/SideMenu";
 
 export default function Home(){
   return(
-    <main>
+    <main className="overflow-hidden">
         <Face></Face>
         <About></About>
         <Education></Education>

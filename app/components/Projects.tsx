@@ -1,3 +1,5 @@
+import AnimatedTitle from "../AnimatedTitle";
+
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
@@ -13,8 +15,8 @@ export default async function Projects(){
     const displayProjects= projects ? projects : [];
     
     return(
-        <section className="mb-[200px] w-full overflow-hidden h-screen flex flex-col  items-center justify-center">
-            <h2 className="text-center text-6xl my-15">Project List</h2>
+        <section className="pb-20 w-full min-h-screen flex flex-col  items-center justify-center overflow-hidden">
+            <AnimatedTitle title="Project List" />
 
             <div className="relative w-max mx-auto">
                 <div className="flex gap-10">

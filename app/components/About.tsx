@@ -1,7 +1,8 @@
+import AnimatedTitle from "../AnimatedTitle";
 export default function About(){
     return(
-        <section className="px-36 my-50 h-screen">
-            <h2 className="text-center text-6xl mb-18">About Me</h2>
+        <section className="px-36 my-50 min-h-screen">
+            <AnimatedTitle title="About Me" />
             <p className="leading-loose text-xl">
                 初めまして！平尾俊介です！
                 京都外国語大学 外国語学部を卒業後、カナダのGeorgian CollegeにてComputer Programmingを専攻し、2年間留学いたしました。

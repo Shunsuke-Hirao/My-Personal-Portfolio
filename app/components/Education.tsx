@@ -1,3 +1,5 @@
+import AnimatedTitle from "../AnimatedTitle";
+
 const EDUCATION_DATA = [
   {
     id: "ashima-hs",
@@ -18,8 +20,8 @@ const EDUCATION_DATA = [
 
 export default function Education() {
   return (
-    <section  className="px-36 mb-50 h-screen">
-      <h2 className="text-center text-6xl my-15">Education</h2>
+    <section  className="px-20 mb-50 min-h-screen overflow-hidden">
+      <AnimatedTitle title="Education" />
       <table className="block">
         <tbody className="block">
           {EDUCATION_DATA.map((item) => (

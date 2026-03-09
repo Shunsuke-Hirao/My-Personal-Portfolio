@@ -1,3 +1,5 @@
+import AnimatedTitle from "../AnimatedTitle";
+
 const EXPERIENCE_DATA=[
     {
         id: "kacoms",
@@ -8,8 +10,8 @@ const EXPERIENCE_DATA=[
 
 export default function Experience(){
     return (
-    <section  className="px-36 mb-50 h-screen">
-      <h2 className="text-center text-6xl my-15">Full Time Job Experience</h2>
+    <section  className="px-20 mb-50 min-h-screen overflow-hidden">
+      <AnimatedTitle title="Full Time Job Experience" />
       <table className="block">
         <tbody className="block">
           {EXPERIENCE_DATA.map((item) => (
