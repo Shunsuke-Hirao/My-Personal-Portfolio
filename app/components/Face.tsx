@@ -44,14 +44,15 @@ export default function Face(){
                     <span className="absolute bottom-[20px] left-[23px] w-8 h-[2px] bg-white"></span>
                 </div> */}
 
-                <div 
+                <a 
+                    href="https://github.com/Shunsuke-Hirao" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="fixed bottom-22 right-0 pl-4 w-[95px] h-[70px] z-[50] flex items-center justify-center cursor-pointer bg-slate-50 border border-black/30 border-r-0 hover:bg-[#00FF00] transition-colors duration-300"
                     style={{ animation: "slideInRight 0.5s ease-out 3s both" }}
                 >
-                    <a href="https://github.com/Shunsuke-Hirao" target="_blank" rel="noopener noreferrer">
-                        <img src="/icon/github.png" alt="githubicon" className="w-8 h-8 rounded-full" />
-                    </a>
-                </div>
+                    <img src="/icon/github.png" alt="githubicon" className="w-8 h-8 rounded-full" />
+                </a>
 
             </section>
         </div>
