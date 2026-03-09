@@ -87,3 +87,18 @@ body {
     transform: translateY(0);
   }
 }
+
+@keyframes fadeInPage {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.animate-fade-in-page {
+  animation: fadeInPage 1.5s ease-out forwards;
+}

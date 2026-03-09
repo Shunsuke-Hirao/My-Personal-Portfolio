@@ -8,7 +8,7 @@ import SideMenu from "./components/SideMenu";
 
 export default function Home(){
   return(
-    <main className="overflow-hidden">
+    <main className="overflow-hidden animate-fade-in-page bg-[#FAFAFA]">
         <Face></Face>
         <About></About>
         <Education></Education>
