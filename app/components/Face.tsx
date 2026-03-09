@@ -20,7 +20,7 @@ export default function Face(){
 
                     <div 
                         className="text-9xl font-bold italic text-left absolute bottom-10 -right-100 z-30 text-black w-max"
-                        style={{ animation: "slideInFromFarRight 0.5s ease 0.5s both" }}
+                        style={{ animation: "slideInFromFarRight 0.5s ease 1.5s both" }}
                     >
                         <h2>Shunsuke</h2>
                         <h2>Hirao</h2>
@@ -29,7 +29,7 @@ export default function Face(){
                     <div className="absolute top-0 w-[480px] h-[570px] overflow-hidden z-40 pointer-events-none">
                         <div 
                             className="text-9xl font-bold italic text-left absolute bottom-10 -right-100 text-white w-max"
-                            style={{ animation: "slideInFromFarRight 0.5s ease 0.5s both" }}
+                            style={{ animation: "slideInFromFarRight 0.5s ease 1.5s both" }}
                         >
                             <h2>Shunsuke</h2>
                             <h2>Hirao</h2>
