@@ -10,9 +10,10 @@ const EXPERIENCE_DATA=[
 
 export default function Experience(){
     return (
-    <section id="experience" className="px-20 mb-50 min-h-screen overflow-hidden">
+    /* ▼ 修正: 同じく py-24 と max-w-5xl mx-auto で統一！ */
+    <section id="experience" className="max-w-5xl mx-auto px-10 py-24 overflow-hidden">
       <AnimatedTitle title="Full Time Job Experience" />
-      <table className="block">
+      <table className="block mt-10">
         <tbody className="block">
           {EXPERIENCE_DATA.map((item) => (
             <tr key={item.id} className="block py-[15px] text-left text-xl">
