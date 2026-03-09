@@ -1,7 +1,7 @@
 import AnimatedTitle from "../AnimatedTitle";
 export default function About(){
     return(
-        <section className="px-36 my-50 min-h-screen">
+        <section id="about" className="px-36 my-50 min-h-screen">
             <AnimatedTitle title="About Me" />
             <p className="leading-loose text-xl">
                 初めまして！平尾俊介です！

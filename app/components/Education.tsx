@@ -20,7 +20,7 @@ const EDUCATION_DATA = [
 
 export default function Education() {
   return (
-    <section  className="px-20 mb-50 min-h-screen overflow-hidden">
+    <section id="education" className="px-20 mb-50 min-h-screen overflow-hidden">
       <AnimatedTitle title="Education" />
       <table className="block">
         <tbody className="block">

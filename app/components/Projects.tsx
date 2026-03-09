@@ -15,7 +15,7 @@ export default async function Projects(){
     const displayProjects= projects ? projects : [];
     
     return(
-        <section className="pb-20 w-full min-h-screen flex flex-col  items-center justify-center overflow-hidden">
+        <section id="projects" className="pb-20 w-full min-h-screen flex flex-col  items-center justify-center overflow-hidden">
             <AnimatedTitle title="Project List" />
 
             <div className="relative w-max mx-auto">

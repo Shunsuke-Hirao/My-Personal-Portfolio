@@ -10,7 +10,7 @@ const EXPERIENCE_DATA=[
 
 export default function Experience(){
     return (
-    <section  className="px-20 mb-50 min-h-screen overflow-hidden">
+    <section id="experience" className="px-20 mb-50 min-h-screen overflow-hidden">
       <AnimatedTitle title="Full Time Job Experience" />
       <table className="block">
         <tbody className="block">
