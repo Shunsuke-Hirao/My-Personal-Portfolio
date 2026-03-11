@@ -20,7 +20,6 @@ const EDUCATION_DATA = [
 
 export default function Education() {
   return (
-    /* ▼ 修正: 同じく py-24 と max-w-5xl mx-auto で統一！ */
     <section id="education" className="max-w-5xl mx-auto px-10 py-24 overflow-hidden">
       <AnimatedTitle title="Education" />
       <table className="block mt-10">

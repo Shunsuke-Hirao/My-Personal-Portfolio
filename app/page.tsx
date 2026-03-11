@@ -5,6 +5,7 @@ import Face from "./components/Face";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import SideMenu from "./components/SideMenu";
+import Skills from "./components/Skills";
 
 export default function Home(){
   return(
@@ -13,6 +14,7 @@ export default function Home(){
       <About></About>
       <Education></Education>
       <Experience></Experience>
+      <Skills></Skills>
       <Projects></Projects>
       <SideMenu></SideMenu>
       <Footer></Footer>

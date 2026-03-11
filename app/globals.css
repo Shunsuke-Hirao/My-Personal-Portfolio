@@ -25,11 +25,11 @@ body {
   }
 }
 
-@keyframes slideInRight{
-  0%{
+@keyframes slideInRight {
+  0% {
     transform: translateX(100%);
   }
-  100%{
+  100% {
     transform: translateX(0);
   }
 }
@@ -74,11 +74,13 @@ body {
 }
 
 .is-active .title-text {
-  animation: revealText 1.0s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards;
+  animation: revealText 1s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards;
 }
 
 @keyframes drawLine {
-  to { transform: scaleX(1); }
+  to {
+    transform: scaleX(1);
+  }
 }
 
 @keyframes revealText {
@@ -88,15 +90,12 @@ body {
   }
 }
 
-/* --- ページ全体をフワッと表示するアニメーション --- */
 @keyframes fadeInPage {
   0% {
     opacity: 0;
-    /* filter: blur(5px); ← これを消す！ */
   }
   100% {
     opacity: 1;
-    /* filter: blur(0); ← これを消す！ */
   }
 }
 

@@ -6,6 +6,7 @@ const MENU_ITEMS = [
   { name: "About Me", id: "about" },
   { name: "Education", id: "education" },
   { name: "Full Time Job Experience", id: "experience" },
+  { name: "Skills", id:"skills"},
   { name: "Projects", id: "projects" },
 ];
 
